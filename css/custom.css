@@ -1,8 +1,28 @@
-.navbar .nav-expand {
-    background-color: rbga (0, 0, 0, 0.75);
+.navbar {
+    background-color: rgba(0, 0, 0, 0.75);
 }
 
 .jumbotron {
-    background-image: url("../images/charles-deluvio-unsplash.jpg");
-    background-size: cover;
+    color: white;
+    background: url("../images/charles-deluvio-unsplash.jpg") no-repeat center / cover;
+    height: 100vh;
+    border-bottom: 5px solid #ffa949;
+}
+
+.amatic {
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+}
+
+.header1 {
+    font-size: 4rem;
+}
+
+.header2 {
+    font-size: 2.5rem;
+}
+
+.josefin {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
 }
