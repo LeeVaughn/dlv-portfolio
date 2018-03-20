@@ -1,3 +1,13 @@
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+
+#about {
+    height: 100vh;
+    border-bottom: 5px solid #ffa949;
+}
+
 .navbar {
     background-color: rgba(0, 0, 0, 0.75);
 }
@@ -9,20 +19,32 @@
     border-bottom: 5px solid #ffa949;
 }
 
-.amatic {
+.jumbotron h1 {
     font-family: 'Amatic SC', cursive;
     font-weight: 700;
-}
-
-.header1 {
     font-size: 4rem;
 }
 
-.header2 {
+.jumbotron h2 {
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
     font-size: 2.5rem;
 }
 
-.josefin {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 400;
+.jumbotron h3 {
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    font-size: 1.9rem;
+}
+
+.profile-image {
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    border: 2px solid #ffa949;
+    transition: all .5s;
+}
+
+.profile-image:hover {
+    transform: scale(1.5) rotate(360deg);
 }
