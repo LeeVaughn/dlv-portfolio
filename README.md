@@ -1,7 +1,10 @@
 # DLV Programming Portfolio
 
 This repository houses my personal portfolio page.
-It is meant to highlight my skills and serve as a resource to help me secure work as an in-house or freelance developer.
+
+## Motivation
+
+To highlight my skill as a front end developer and serve as a resource to help me secure work either as a freelance or as an in-house developer.
 
 ## Build Status
 
@@ -12,6 +15,11 @@ I am currently working on the layout for the site. Once that is done I will star
 
 [Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/) - The front end framework used
 
-## Authors
+## Links
 
-- Daniel Lee Vaughn
+* Project homepage: coming soon!
+* Repository: https://github.com/LeeVaughn/dlv-portfolio
+
+## Author
+
+[Daniel Lee Vaughn](https://github.com/LeeVaughn)
