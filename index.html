@@ -3,7 +3,7 @@
 <html lang="en-US">
 
 <head>
-    <title>DLV Programming</title>
+    <title>DLV Programming Portfolio</title>
     <meta charset="UTF-8">
     <meta name="description" content="Welcome to the programming portfolio of Lee Vaughn, Front-End JavaScript Developer.">
     <meta name="keywords" content="programming, JavaScript, portfolio, developer, front end">
@@ -18,15 +18,14 @@
 <body>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand d-flex w-50 mr-auto" href="#">DLV Programming</a>
+            <a class="navbar-brand d-flex mr-auto" href="#">DLV Programming</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto w-100 justify-content-end">
-                    <a class="nav-item nav-link active" href="#home">Home
-                        <!--                         <span class="sr-only">(current)</span> -->
+                    <a class="nav-item nav-link" href="#home">Home
                     </a>
                     <a class="nav-item nav-link" href="#about">About</a>
                     <a class="nav-item nav-link" href="#projects">Projects</a>
@@ -39,28 +38,121 @@
     <header>
         <div class="jumbotron jumbotron-fluid" id="home">
             <div class="container d-flex h-100">
-                <div class="row justify-content-center align-self-center">
+                <div class="col align-self-center text-center">
                     <h1>Hello, my name is Lee Vaughn.</h1>
                     <h2>I design and build web applications.</h2>
                 </div>
             </div>
         </div>
+        </div>
     </header>
 
-    <div id="about">
-        <div class="container text-center">
-            <img class="profile-image" src="../images/profile.jpg" alt="Lee Vaughn Profile Picture">
-            <h3>About Me</h3>
-            <p>I am a Front-End Developer looking for opportunities to use and grow my knowledge of JavaScript, HTML and CSS. I
-                use responsive design and mobile first principles to create functional and visually appealing web applications.</p>
-            <p>When I am not writing simple yet elegant code, I enjoy spending time at the beach with my lovely wife, cheering on
-                the best NHL expansion team ever (Go Golden Knights!), and enjoying a delicious pepperoni pizza.</p>
+    <div class="container-fluid">
+
+        <div id="about">
+            <div class="container">
+                <div>
+                    <div class="col align-self-center text-center">
+                        <img class="profile-image my-5" src="images/leevaughn.jpg" alt="Lee Vaughn Profile Picture">
+                        <h3>About Me</h3>
+                        <p class="text-secondary">I am a Front-End Developer looking for opportunities to use and grow my knowledge of JavaScript,
+                            HTML and CSS. I use responsive design and mobile first principles to create functional and visually
+                            appealing web applications.</p>
+                        <p class="text-secondary">Before becoming a Developer, I spent over 20 years in hospitality management. My experience managing
+                            hotel and casino operations has given me a wide array of soft skills like critical thinking,
+                            time management, and team building.</p>
+                        <p class="text-secondary">These skills and others make me more than just the code I write. They make me a well-rounded person
+                            capable of contributing to the success of a team in a variety of ways.</p>
+                        <p class="text-secondary">When I am not writing simple yet elegant code, I enjoy spending time at the beach with my lovely
+                            wife, cheering on the best NHL expansion team ever (Go Golden Knights!), and enjoying a delicious
+                            pepperoni pizza.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
+
+        <div id="projects">
+            <div class="container">
+                <h3 class="text-center">Projects</h3>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card mb-3">
+                            <img class="card-img-top" src="images/coming-soon.jpg" alt="coming soon sign">
+                            <div class="card-body">
+                                <h4 class="card-title">The Happiness Primer</h4>
+                                <p class="card-text">Bootstrap, JavaScript, HTML and CSS</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                            <a href="https://leevaughn.github.io/quotes-of-the-storm/" target="_blank">
+                        <div class="card mb-3"> 
+                            <img class="card-img-top" src="images/quotes-of-the-storm.jpg" alt="Quotes of the Storm preview">
+                            <div class="card-body">
+                                <h4 class="card-title">Quotes of the Storm</h4>
+                                <p class="card-text">JavaScript, jQuery, HTML and CSS</p>
+                            </div>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                            <a href="https://leevaughn.github.io/wikipedia-viewer/" target="_blank">
+                        <div class="card mb-3">
+                            <img class="card-img-top" src="images/wikipedia-viewer.jpg" alt="Wikipedia Viewer preview">
+                            <div class="card-body">
+                                <h4 class="card-title">Wikipedia Viewer</h4>
+                                <p class="card-text">JavaScript, jQuery, HTML and CSS</p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                            <a href="https://leevaughn.github.io/local-weather/" target="_blank">
+                        <div class="card mb-3">
+                            <img class="card-img-top" src="images/local-weather.jpg" alt="Local Weather preview">
+                            <div class="card-body">
+                                <h4 class="card-title">Local Weather App</h4>
+                                <p class="card-text">JavaScript, jQuery, HTML and CSS</p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                            <a href="https://leevaughn.github.io/twitchtv-api/" target="_blank">
+                        <div class="card mb-3">
+                            <img class="card-img-top" src="images/twitch-api.jpg" alt="Twitch Stream Tracker preview">
+                            <div class="card-body">
+                                <h4 class="card-title">Twitch Streamer Tracker</h4>
+                                <p class="card-text">JavaScript, jQuery, HTML and CSS</p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                            <a href="http://holiday-trees.herokuapp.com/index.html" target="_blank">
+                        <div class="card mb-3">
+                            <img class="card-img-top" src="images/holiday-tree-project.jpg" alt="Holiday Tree preview">
+                            <div class="card-body">
+                                <h4 class="card-title">Holiday Tree</h4>
+                                <p class="card-text">HTML and CSS</p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact">
+            <div class="container">
+                <div class="mx-auto">
+
+                </div>
+            </div>
+        </div>
+
     </div>
-
-
-
-
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -68,6 +160,7 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
