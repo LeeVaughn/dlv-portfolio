@@ -12,10 +12,11 @@
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Josefin+Sans:400,400i" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
     <link rel="stylesheet" href="css/custom.css">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="100">
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
         <div class="container">
             <a class="navbar-brand d-flex mr-auto" href="#">DLV Programming</a>
@@ -36,7 +37,7 @@
     </nav>
 
     <header>
-        <div class="jumbotron jumbotron-fluid" id="home">
+        <div class="jumbotron jumbotron-fluid mb-0" id="home">
             <div class="container d-flex h-100">
                 <div class="col align-self-center text-center">
                     <h1>Hello, my name is Lee Vaughn.</h1>
@@ -47,23 +48,23 @@
         </div>
     </header>
 
-    <div class="container-fluid">
+    <div class="container-fluid px-0">
 
         <div id="about">
             <div class="container">
-                <div>
+                <div class="d-flex">
                     <div class="col align-self-center text-center">
                         <img class="profile-image my-5" src="images/leevaughn.jpg" alt="Lee Vaughn Profile Picture">
                         <h3>About Me</h3>
-                        <p class="text-secondary">I am a Front-End Developer looking for opportunities to use and grow my knowledge of JavaScript,
+                        <p>I am a Front-End Developer looking for opportunities to use and grow my knowledge of JavaScript,
                             HTML and CSS. I use responsive design and mobile first principles to create functional and visually
                             appealing web applications.</p>
-                        <p class="text-secondary">Before becoming a Developer, I spent over 20 years in hospitality management. My experience managing
+                        <p>Before becoming a Developer, I spent over 20 years in hospitality management. My experience managing
                             hotel and casino operations has given me a wide array of soft skills like critical thinking,
                             time management, and team building.</p>
-                        <p class="text-secondary">These skills and others make me more than just the code I write. They make me a well-rounded person
+                        <p>These skills and others make me more than just the code I write. They make me a well-rounded person
                             capable of contributing to the success of a team in a variety of ways.</p>
-                        <p class="text-secondary">When I am not writing simple yet elegant code, I enjoy spending time at the beach with my lovely
+                        <p>When I am not writing simple yet elegant code, I enjoy spending time at the beach with my lovely
                             wife, cheering on the best NHL expansion team ever (Go Golden Knights!), and enjoying a delicious
                             pepperoni pizza.
                         </p>
@@ -79,7 +80,7 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="card mb-3">
                             <img class="card-img-top" src="images/coming-soon.jpg" alt="coming soon sign">
-                            <div class="card-body">
+                            <div class="card-body text-center">
                                 <h4 class="card-title">The Happiness Primer</h4>
                                 <p class="card-text">Bootstrap, JavaScript, HTML and CSS</p>
                             </div>
@@ -89,7 +90,7 @@
                             <a href="https://leevaughn.github.io/quotes-of-the-storm/" target="_blank">
                         <div class="card mb-3"> 
                             <img class="card-img-top" src="images/quotes-of-the-storm.jpg" alt="Quotes of the Storm preview">
-                            <div class="card-body">
+                            <div class="card-body text-center">
                                 <h4 class="card-title">Quotes of the Storm</h4>
                                 <p class="card-text">JavaScript, jQuery, HTML and CSS</p>
                             </div>
@@ -100,7 +101,7 @@
                             <a href="https://leevaughn.github.io/wikipedia-viewer/" target="_blank">
                         <div class="card mb-3">
                             <img class="card-img-top" src="images/wikipedia-viewer.jpg" alt="Wikipedia Viewer preview">
-                            <div class="card-body">
+                            <div class="card-body text-center">
                                 <h4 class="card-title">Wikipedia Viewer</h4>
                                 <p class="card-text">JavaScript, jQuery, HTML and CSS</p>
                             </div>
@@ -111,7 +112,7 @@
                             <a href="https://leevaughn.github.io/local-weather/" target="_blank">
                         <div class="card mb-3">
                             <img class="card-img-top" src="images/local-weather.jpg" alt="Local Weather preview">
-                            <div class="card-body">
+                            <div class="card-body text-center">
                                 <h4 class="card-title">Local Weather App</h4>
                                 <p class="card-text">JavaScript, jQuery, HTML and CSS</p>
                             </div>
@@ -122,7 +123,7 @@
                             <a href="https://leevaughn.github.io/twitchtv-api/" target="_blank">
                         <div class="card mb-3">
                             <img class="card-img-top" src="images/twitch-api.jpg" alt="Twitch Stream Tracker preview">
-                            <div class="card-body">
+                            <div class="card-body text-center">
                                 <h4 class="card-title">Twitch Streamer Tracker</h4>
                                 <p class="card-text">JavaScript, jQuery, HTML and CSS</p>
                             </div>
@@ -133,7 +134,7 @@
                             <a href="http://holiday-trees.herokuapp.com/index.html" target="_blank">
                         <div class="card mb-3">
                             <img class="card-img-top" src="images/holiday-tree-project.jpg" alt="Holiday Tree preview">
-                            <div class="card-body">
+                            <div class="card-body text-center">
                                 <h4 class="card-title">Holiday Tree</h4>
                                 <p class="card-text">HTML and CSS</p>
                             </div>
@@ -145,10 +146,18 @@
         </div>
 
         <div id="contact">
-            <div class="container">
-                <div class="mx-auto">
-
+            <div class="container d-flex h-100">
+                <div class="card align-self-center mx-auto">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">Contact Me</h3>
+                        <p class="card-text">Have questions or ready to create something awesome? Feel free to reach out to me on any of the social sites below.</p>
+                        <a href="www.linkedin.com/in/lee-vaughn" target="_blank" class="btn"><i class="fa fa-linkedin fa-2x"></i></a>
+                        <a href="https://scheduledprogramming.com/" class="btn"><i class="fa fa-wordpress fa-2x"></i></a>
+                        <a href="https://twitter.com/DLVProgramming" class="btn"><i class="fa fa-twitter fa-2x"></i></a>
+                        <a href="#" class="btn"><i class="fa fa-envelope fa-2x"></i></a>
+                    </div>
                 </div>
+                
             </div>
         </div>
 
