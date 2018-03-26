@@ -15,11 +15,11 @@ h2 {
 
 h3 {
     font-size: 1.9rem;
-    text-decoration: underline #ffa949;
+    text-decoration: underline #ff5722;
 }
 
 h4 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 p {
@@ -32,20 +32,20 @@ a {
 }
 
 a:link {
-    color: #000;
+    color: #303841;
 }
 
 a:visited {
-    color: #000;
+    color: #303841;
 }
 
 a:hover {
-    color: #000;
+    color: #303841;
     text-decoration: none;
 }
 
 #home,
-#about {
+#contact {
     height: 100vh;
 }
 
@@ -53,17 +53,40 @@ a:hover {
 #about,
 #projects,
 #contact {
-    /* height: 100vh; */
-    border-bottom: 5px solid #ffa949;
+    border-bottom: 5px solid #ff5722;
+}
+
+#about {
+    background: linear-gradient(175deg, rgba(238,238,238,0), rgba(0,173,181,1));
+}
+
+#about p {
+    color: #303841;
+    /* text-shadow: .5px .5px #303841; */
+}
+
+#projects {
+    background: #eee;
+}
+
+/* #projects,
+#contact {
+    border-bottom: 5px solid #00adb5;
+} */
+
+#contact {
+    color: #303841;
+    background: url("../images/triangle-gradient.png") no-repeat center / cover;
+    height: 100vh;
 }
 
 .navbar {
     background-color: rgba(0, 0, 0, 0.75);
-    border-bottom: 1px solid #ffa949;
+    border-bottom: 1px solid #ff5722;
 }
 
 .jumbotron {
-    color: white;
+    color: #eee;
     background: url("../images/charles-deluvio-unsplash.jpg") no-repeat center / cover;
 }
 
@@ -71,7 +94,7 @@ a:hover {
     width: 225px;
     height: 225px;
     border-radius: 50%;
-    border: 2px solid #ffa949;
+    border: 2px solid #ff5722;
     transition: all .5s;
 }
 
@@ -80,6 +103,18 @@ a:hover {
 }
 
 .card {
-    border: 2px solid #000;
-    box-shadow: 1px 2px #888888;
+    border: 1px solid #888888;
+    box-shadow: 3px 6px 15px 0 rgba(0, 0, 0, 0.4);
+}
+
+.card-text {
+    color:#303841;
+}
+
+.btn {
+    background-color: #00adb5;
+}
+
+.fa {
+    color: #eee;
 }
