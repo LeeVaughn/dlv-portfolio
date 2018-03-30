@@ -6,10 +6,10 @@ This repository houses my personal portfolio page.
 
 To highlight my skill as a front end developer and serve as a resource to help me secure work either as a freelance or as an in-house developer.
 
-## Build Status
+## Future Updates
 
-This project is still in the early stages of developement.
-I am currently working on the layout for the site. Once that is done I will start working on the functionality.
+- Add new projects as needed
+- Move the site from GitHub pages to a custom domain and server.
 
 ## Built With
 
@@ -17,7 +17,7 @@ I am currently working on the layout for the site. Once that is done I will star
 
 ## Links
 
-* Project homepage: coming soon!
+* Project homepage: https://leevaughn.github.io/dlv-portfolio/
 * Repository: https://github.com/LeeVaughn/dlv-portfolio
 
 ## Author
