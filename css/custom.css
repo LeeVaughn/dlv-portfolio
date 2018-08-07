@@ -96,9 +96,21 @@ a:hover {
     transform: scale(1.25) rotate(360deg);
 }
 
+.enlarge {
+    transition: all .2s ease-in-out;
+}
+
+.enlarge:hover {
+    transform: scale(1.05);
+}
+
 .card {
     border: 1px solid #888888;
     box-shadow: 3px 6px 15px 0 rgba(0, 0, 0, 0.4);
+}
+
+.card-depth:hover {
+    box-shadow: 4px 8px 15px 0 rgba(0, 0, 0, 0.6);
 }
 
 .card-text {
