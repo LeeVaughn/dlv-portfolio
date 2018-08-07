@@ -13,7 +13,7 @@ To highlight my skill as a front end developer and serve as a resource to help m
 
 ## Built With
 
-[Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/) - The front end framework used
+* [Bootstrap 4](https://getbootstrap.com/)
 
 ## Links
 
